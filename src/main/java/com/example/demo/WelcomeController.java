@@ -12,6 +12,6 @@ public class WelcomeController {
 
     @GetMapping
     public String defaultPage(){
-        return "This is the Default page";
+        return "This is the Default page for CI/CD testing";
     }
 }
